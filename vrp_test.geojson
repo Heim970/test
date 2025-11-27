@@ -1,0 +1,326 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69964368774413, 39.66135215435244]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.70805509521485, 39.65712322111028]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.7114883227539, 39.667298653917555]
+      },
+      "properties": {
+        "zoneType": "start",
+        "drone_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.71303327514649, 39.661748603577195]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72522123291014, 39.65368702231925]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72882612182617, 39.66135215435244]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.7341476245117, 39.65963418143102]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.73449094726561, 39.666637957014416]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72470624877928, 39.6803791516075]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72796781494141, 39.68077549165835]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69706876708983, 39.68183238734025]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72384794189452, 39.68302137564808]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.71234662963866, 39.6803791516075]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6841955414764, 39.64688126200019],
+            [124.6841955414764, 39.68837050954565],
+            [124.73809445852358, 39.68837050954565],
+            [124.73809445852358, 39.64688126200019],
+            [124.6841955414764, 39.64688126200019]
+          ]
+        ]
+      },
+      "properties": {
+        "autoBBox": true,
+        "zoneType": "fly_zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69123228027343, 39.657916165803556]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69191892578125, 39.67747258840035]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69380720092772, 39.66690223653379]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.69586713745116, 39.652894029109234]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.6986137194824, 39.676283504559905]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.71595151855469, 39.6547443324487]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.72092969848632, 39.66716651504237]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.71869810058594, 39.67773682647376]
+      },
+      "properties": {
+        "zoneType": "waypoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "drone": 0,
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.7114883227539, 39.667298653917555],
+          [124.72092969848632, 39.66716651504237],
+          [124.73449094726561, 39.666637957014416],
+          [124.7341476245117, 39.65963418143102],
+          [124.72882612182617, 39.66135215435244],
+          [124.7114883227539, 39.667298653917555]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "drone": 1,
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.7114883227539, 39.667298653917555],
+          [124.6986137194824, 39.676283504559905],
+          [124.69706876708983, 39.68183238734025],
+          [124.69191892578125, 39.67747258840035],
+          [124.69380720092772, 39.66690223653379],
+          [124.7114883227539, 39.667298653917555]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "drone": 2,
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.7114883227539, 39.667298653917555],
+          [124.7114883227539, 39.667298653917555],
+          [124.71869810058594, 39.67773682647376],
+          [124.72470624877928, 39.6803791516075],
+          [124.72796781494141, 39.68077549165835],
+          [124.72384794189452, 39.68302137564808],
+          [124.71234662963866, 39.6803791516075],
+          [124.7114883227539, 39.667298653917555]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "drone": 3,
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.7114883227539, 39.667298653917555],
+          [124.70805509521485, 39.65712322111028],
+          [124.69586713745116, 39.652894029109234],
+          [124.69123228027343, 39.657916165803556],
+          [124.69964368774413, 39.66135215435244],
+          [124.7114883227539, 39.667298653917555]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "drone": 4,
+        "type": "route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.7114883227539, 39.667298653917555],
+          [124.72522123291014, 39.65368702231925],
+          [124.71595151855469, 39.6547443324487],
+          [124.71303327514649, 39.661748603577195],
+          [124.7114883227539, 39.667298653917555]
+        ]
+      }
+    }
+  ]
+}

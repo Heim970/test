@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from shapely.geometry import Polygon, MultiPolygon
-from area_splitter_scanline import split_flyzone_scanline
 from area_splitter_grid import split_flyzone_grid
 
 # ----------------------------------
@@ -32,7 +31,6 @@ nfzs = [nfz1]
 # 분할 실행
 # ----------------------------------
 
-# zones = split_flyzone_scanline(fly, nfzs, drone_count=4)
 zones = split_flyzone_grid(fly, nfzs, drone_count=23)
 
 # ----------------------------------
