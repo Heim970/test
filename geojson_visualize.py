@@ -37,4 +37,4 @@ def plot_geojson(path):
 
 
 if __name__ == "__main__":
-    plot_geojson("vrp_test.geojson")  # 여기에 너 파일 이름 넣으면 됨
+    plot_geojson("lf_test.geojson")  # 여기에 너 파일 이름 넣으면 됨
