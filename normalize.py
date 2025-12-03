@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from shapely.geometry import shape
 from shapely.ops import transform
+import random
 
 
 def compute_centroid(features):
@@ -56,15 +57,23 @@ def normalize_geojson(path):
         gtype = geom.geom_type
 
         if gtype == "Polygon":
+            # 외곽선 추출
             x, y = geom.exterior.xy
-            ax.plot(x, y, color="orange", linewidth=2)
+            ax.plot(x, y, color="orange", linewidth=2, label="Polygon")
 
         elif gtype == "LineString":
             x, y = geom.xy
-            ax.plot(x, y, color="blue", linewidth=2)
+            # 💡 랜덤 색상 생성 (R, G, B)
+            rand_color = (random.random(), random.random(), random.random())
+            
+            # 💡 무조건 실선(solid)으로 그리기
+            ax.plot(x, y, color=rand_color, linewidth=2, linestyle='-', label="LineString")
 
         elif gtype == "Point":
-            ax.scatter(geom.x, geom.y, s=50, color="black")
+            ax.scatter(geom.x, geom.y, s=50, color="black", label="Point")
+
+        else:
+            print(f"Unsupported geometry: {gtype}")
 
     ax.set_aspect("equal", "box")
     ax.grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
